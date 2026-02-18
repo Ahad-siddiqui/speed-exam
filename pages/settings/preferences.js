@@ -42,13 +42,13 @@ const SettingsPreferences = () => {
 
   return (
     <Fragment>
-      <div className="bg-primary pt-10 pb-21"></div>
+      <div className="bg-gray-700 pt-10 pb-21"></div>
       <Container fluid className="mt-n22 px-6">
         <Row>
           <Col lg={12} md={12} xs={12}>
             <div className="d-flex justify-content-between align-items-center">
               <div className="mb-2 mb-lg-0">
-                <h3 className="mb-0 text-white">Preferences</h3>
+                <h3 className="mb-0 text-white">Settings</h3>
               </div>
               <div>
                 <Link href="/settings" className="btn btn-white">Back to Settings</Link>
@@ -63,7 +63,7 @@ const SettingsPreferences = () => {
               <Card.Header className="bg-white py-4">
                 <h4 className="mb-0">System Preferences</h4>
               </Card.Header>
-              <Card.Body className="p-0">
+              <Card.Body className="p-3">
                 <div className="list-group list-group-flush">
                   <ToggleSwitch
                     label="Auto Result Generation"

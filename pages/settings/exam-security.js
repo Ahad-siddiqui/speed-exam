@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import { FiLock, FiCopy, FiMaximize, FiShield } from 'react-icons/fi';
+import { FiLock, FiCopy, FiMaximize, FiShield, FiEye } from 'react-icons/fi';
 import Link from 'next/link';
 
 const SettingsExamSecurity = () => {

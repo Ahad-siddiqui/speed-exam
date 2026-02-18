@@ -75,13 +75,13 @@ const SettingsAssignEssayMarks = () => {
 
   return (
     <Fragment>
-      <div className="bg-primary pt-10 pb-21"></div>
+      <div className="bg-gray-700 pt-10 pb-21"></div>
       <Container fluid className="mt-n22 px-6">
         <Row>
           <Col lg={12} md={12} xs={12}>
             <div className="d-flex justify-content-between align-items-center">
               <div className="mb-2 mb-lg-0">
-                <h3 className="mb-0 text-white">Assign Essay Marks</h3>
+                <h3 className="mb-0 text-white">Settings</h3>
               </div>
               <div>
                 <Link href="/settings" className="btn btn-white">Back to Settings</Link>
@@ -94,7 +94,7 @@ const SettingsAssignEssayMarks = () => {
           <Col xl={12} lg={12} md={12} xs={12} className="mx-auto">
             <Card>
               <Card.Header className="d-flex justify-content-between align-items-center">
-                <h4 className="mb-0">Search for Assign Marks</h4>
+                <h4 className="mb-0">Assign Essay Marks</h4>
               </Card.Header>
               <Card.Body className="p-4">
                 <Form onSubmit={handleSearch}>
